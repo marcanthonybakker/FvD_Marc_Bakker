@@ -99,7 +99,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>GEDAAN | uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/rbreakdown1.png" width="375px" alt="breakdown van de hele pagina, kort ge-edit">
+  <img src="readme-images/breakdown1.png" width="375px" alt="breakdown van de hele pagina, kort ge-edit">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van een het menu. Deze heeft meerdere bladzijden als het ware.">
