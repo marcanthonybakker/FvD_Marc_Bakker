@@ -105,7 +105,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van een het menu. Deze heeft meerdere bladzijden als het ware.">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/breakdown1.png" width="375px" alt="breakdown van een product. Deze bestaat uit vooral tekst en afbeeldingen. Maar een subtiele navigatie bar sit er boven.">
+  <img src="readme-images/breakdown3.png" width="375px" alt="breakdown van een product. Deze bestaat uit vooral tekst en afbeeldingen. Maar een subtiele navigatie bar sit er boven.">
 
 </details>
 
