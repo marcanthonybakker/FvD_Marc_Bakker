@@ -56,30 +56,36 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Ik had al verwacht dat deze site wat minder toegankelijk is aangezien het een reletief klein bedrijf is. Maar het viel erg tegen, er was veel te noteren wat niet helemaal werkt voor sommige mensen. Bijvoorbeeld navigeren met tab laat heel veel kleine foutjes zien, zoals: geen styling op focus, en veel herhalende links die hetzelfde doen. Dat is ook irritant voor mensen die een screen reader gebruiken.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  -Menu's werken niet, moeten simpler
+  -Afbeeldingen niet duidelijk beschreven
+  -Links missen duidelijkheid bijvoorbeeld prijs
+  -Producten kunnnen beter beschreven worden, zoals textuur, maat, kleur etc.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  -Focus state wordt meestal niet vormgegeven, geen eens basis outlines
+  -Je hebt geen optie voor skip to content
+  -Dropdown menu's hebben geen tab optie
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met shocks
+  -Met muis gaat prima, typen is niet te doen
+  -Maak de website zo veel mogelijk muis accesible
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Elastiek
+  -Met computer gaat het nog wel
+  -Touchscreen koop buttons te klein
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  -Geen dark mode
+  -Blur vision, kleine knopjes die groen, blauw zijn met witte tekst zijn niet te zien
+  -Zwart wit is prima, kleuren deficienties zijn ook prima
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -91,13 +97,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="rbreakdown1.png" width="375px" alt="breakdown van de hele pagina, kort ge-edit">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="breakdown2.png" width="375px" alt="breakdown van een het menu. Deze heeft meerdere bladzijden als het ware.">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="breakdown1.png" width="375px" alt="breakdown van een product. Deze bestaat uit vooral tekst en afbeeldingen. Maar een subtiele navigatie bar sit er boven.">
 
 </details>
 
