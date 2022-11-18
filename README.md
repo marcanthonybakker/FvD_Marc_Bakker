@@ -74,16 +74,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <ul>
 
   #### Motoriek (shocks, elastiekjes)
-  Met shocks
   </ul>
-    <li>Met muis gaat prima, typen is niet te doen</li>
-    <li>Maak de website zo veel mogelijk muis accesible</li>
-  <ul>
-
-  Elastiek
-  </ul>
-    <li>Met computer gaat het nog wel</li>
-    <li>Touchscreen koop buttons te klein</li>
+    <li>Met shocks kan je met muis (bijna) prima besturen, typen is niet te doen</li>
+    <li>Met shocks kan je beter de website zo veel mogelijk muis accesible</li>
+    <li>Elastiek met computer gaat het nog wel</li>
+    <li>Met elastiek zijn de touchscreen koop buttons te klein</li>
   <ul>
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
@@ -104,13 +99,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>GEDAAN | uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="rbreakdown1.png" width="375px" alt="breakdown van de hele pagina, kort ge-edit">
+  <img src="readme-images/rbreakdown1.png" width="375px" alt="breakdown van de hele pagina, kort ge-edit">
 
   ### dynamisch deel (bijv menu): 
-  <img src="breakdown2.png" width="375px" alt="breakdown van een het menu. Deze heeft meerdere bladzijden als het ware.">
+  <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van een het menu. Deze heeft meerdere bladzijden als het ware.">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="breakdown1.png" width="375px" alt="breakdown van een product. Deze bestaat uit vooral tekst en afbeeldingen. Maar een subtiele navigatie bar sit er boven.">
+  <img src="readme-images/breakdown1.png" width="375px" alt="breakdown van een product. Deze bestaat uit vooral tekst en afbeeldingen. Maar een subtiele navigatie bar sit er boven.">
 
 </details>
 
