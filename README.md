@@ -33,7 +33,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>GEDAAN | uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
   https://plamodx.nl/
@@ -53,38 +53,45 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 1e werkgroep</summary>
+  <summary>GEDAAN | uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
   Ik had al verwacht dat deze site wat minder toegankelijk is aangezien het een reletief klein bedrijf is. Maar het viel erg tegen, er was veel te noteren wat niet helemaal werkt voor sommige mensen. Bijvoorbeeld navigeren met tab laat heel veel kleine foutjes zien, zoals: geen styling op focus, en veel herhalende links die hetzelfde doen. Dat is ook irritant voor mensen die een screen reader gebruiken.
 
   #### Screenreader
-  -Menu's werken niet, moeten simpler
-  -Afbeeldingen niet duidelijk beschreven
-  -Links missen duidelijkheid bijvoorbeeld prijs
-  -Producten kunnnen beter beschreven worden, zoals textuur, maat, kleur etc.
-
+  </ul>
+    <li>Menu's werken niet, moeten simpler</li>
+    <li>Afbeeldingen niet duidelijk beschreven</li>
+    <li>Links missen duidelijkheid bijvoorbeeld prijs</li>
+    <li>Producten kunnnen beter beschreven worden, zoals textuur, maat, kleur etc.</li>
+  <ul>
 
   #### Muis en Toetsenbord 
-  -Focus state wordt meestal niet vormgegeven, geen eens basis outlines
-  -Je hebt geen optie voor skip to content
-  -Dropdown menu's hebben geen tab optie
-
+  </ul>
+    <li>Focus state wordt meestal niet vormgegeven, geen eens basis outlines</li>
+    <li>Je hebt geen optie voor skip to content</li>
+    <li>Dropdown menu's hebben geen tab optie</li>
+  <ul>
 
   #### Motoriek (shocks, elastiekjes)
   Met shocks
-  -Met muis gaat prima, typen is niet te doen
-  -Maak de website zo veel mogelijk muis accesible
+  </ul>
+    <li>Met muis gaat prima, typen is niet te doen</li>
+    <li>Maak de website zo veel mogelijk muis accesible</li>
+  <ul>
 
   Elastiek
-  -Met computer gaat het nog wel
-  -Touchscreen koop buttons te klein
-
+  </ul>
+    <li>Met computer gaat het nog wel</li>
+    <li>Touchscreen koop buttons te klein</li>
+  <ul>
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  -Geen dark mode
-  -Blur vision, kleine knopjes die groen, blauw zijn met witte tekst zijn niet te zien
-  -Zwart wit is prima, kleuren deficienties zijn ook prima
+  </ul>
+    <li>Geen dark mode</li>
+    <li>Blur vision, kleine knopjes die groen, blauw zijn met witte tekst zijn niet te zien</li>
+    <li>Zwart wit is prima, kleuren deficienties zijn ook prima</li>
+  <ul>
 
 
 </details>
@@ -94,7 +101,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 2e werkgroep</summary>
+  <summary>GEDAAN | uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
   <img src="rbreakdown1.png" width="375px" alt="breakdown van de hele pagina, kort ge-edit">
