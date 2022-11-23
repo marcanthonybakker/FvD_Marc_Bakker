@@ -282,8 +282,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 </ol>
-    <li>Bron: HTML select element <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select</a></li>
-    <li>Brond: <a href=""></a></li>
-  <ol>
+  <li>Bron: HTML select element <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select</a></li>
+  <li>Bron: Icon instagram<a href="https://www.iconfinder.com/search?q=instagram"></a></li>
+  <li>Bron: Icon facebook<a href="https://www.iconfinder.com/search?q=facebook"></a></li>
+  <li>Bron: Icon ideal<a href="https://www.autolakstift.nl/ideal-logo/"></a></li>
+  <li>Bron: Icon bancontact<a href="https://www.autolakstift.nl/bancontact/"></a></li>
+  <li>Bron: Icon paypal<a href="https://nl.m.wikipedia.org/wiki/Bestand:PayPal.svg"></a></li>
+  <li>Bron: Icon giropay<a href="https://en.wikipedia.org/wiki/Giropay"></a></li>
+  <li>Bron: Logo + Iconset plamodx<a href="https://plamodx.nl/"></a></li>
+  <li>Bron: Product foto's plamodx<a href="https://plamodx.nl/"></a></li>
+  <li>Bron: <a href=""></a></li>
+<ol>
 
 </details>

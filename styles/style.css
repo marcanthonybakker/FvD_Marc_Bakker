@@ -1,4 +1,13 @@
 /**************/
+/* Font */
+/**************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+/**************/
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
@@ -11,7 +20,7 @@ button, summary {
 
 
 
-
+/*  */
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -27,8 +36,191 @@ button, summary {
 
 
 /****************/
-/* JOUW STYLING */
+/* Root */
 /****************/
 
-/* jouw code */
+:root {
+	--dx-rood: #E64646;
+	--dx-grijs: #777777;
+	--dx-zwart: #222222;
+	--bg-dag: #ffffff;
+	--bg-nacht: #222222;
+}
 
+
+
+
+
+
+/****************/
+/* Algemeen */
+/****************/
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+body {
+	background-color: var(--bg-dag);
+	margin: 0em 1em 0em 1em;
+}
+
+img {
+	max-width: 100px;
+}
+
+h1, h2, h3, h4, p, a {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+
+
+
+/****************/
+/* HEADER */
+/****************/
+
+header>article:first-of-type {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+header>article:first-of-type>section>select{
+	padding: 5px 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: var(--dx-rood);
+	margin-right: 1.5em;
+}
+
+header>article:first-of-type img {
+	max-width: 25px;
+}
+
+header>article:first-of-type img:first-of-type {
+	margin-right: 1em;
+}
+
+
+
+
+
+/****************/
+/* MAIN */
+/****************/
+
+main article {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+
+
+/****************/
+/* FOOTER 1e SECTION*/
+/****************/
+
+footer>article:first-of-type {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);	
+	list-style: none;
+}
+
+footer>article:first-of-type>section>h3 {
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+
+footer>article:first-of-type>section:nth-of-type(4)>nav>ul {
+	display: flex;
+	gap: 1em;
+}
+
+footer>article:first-of-type section nav ul li a {
+	color: var(--dx-grijs);
+}
+
+footer>article:first-of-type section nav ul li{
+	margin-top: 1em;
+}
+
+footer>article:first-of-type>section>h3 {
+	color: var(--dx-rood);
+}
+
+footer>article:nth-of-type(2)>section>h3 {
+	color: var(--dx-grijs);
+	font-weight: 300;
+	font-size: 0.8em;
+	margin-top: 2em;
+}
+
+footer>article:first-of-type>section:nth-of-type(4)>nav>ul>li img {
+	max-width: 25px;
+}
+
+footer>article:first-of-type>section {
+	margin-bottom: 1em;
+}
+
+
+
+
+/****************/
+/* FOOTER 2e SECTION*/
+/****************/
+
+footer>article:nth-of-type(2) section {
+	border-top: 1px solid var(--dx-grijs);
+}
+
+footer>article:nth-of-type(2) ul {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+}
+
+footer>article:nth-of-type(2) li {
+	border: 1px solid var(--dx-zwart);
+	padding: 3px 5px 0px 5px;
+	margin: 2em 0em 5em 0em;
+}
+
+footer>article:nth-of-type(2) section img {
+	width: 30px;
+	max-height: 20px;
+	border: var(--dx-zwart);
+}
+
+
+
+
+
+
+/****************/
+/* MEDIA QUERYS */
+/****************/
+
+@media (max-width: 330px) {
+	footer>article:first-of-type {
+		grid-template-columns: repeat(1, 1fr);	
+	}
+
+	main article {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
