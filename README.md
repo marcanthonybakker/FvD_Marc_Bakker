@@ -158,10 +158,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+| student 1 MARC     | student 2 ROBIN         | student 3 AYA   | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | HTML en CSS kort laten zien voor feedback, geen directe vragen  | Kun je grid, flexbox en position door elkaar gebruiken? Of kan het ook anders? | Eigen website: hoe zijn hier de h'tjes verdeeld (h1, h2, etc.)? | "een plan opstellen ivm huiswerk" |
+  | en dat ook nog | Is mijn HTML goed uitgewerkt? Of wat mist er nog of kan beter? | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
@@ -172,6 +172,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 2
   - nog een punt
 - ...
+
+  <!-- samen met je groepje opstellen
+
+  Student 1 MARC
+  -HTML en CSS kort laten zien voor feedback, geen directe vragen
+  
+  Student 2 ROBIN
+  -Kun je grid, flexbox en position door elkaar gebruiken? Of kan het ook anders?
+  -Is mijn HTML goed uitgewerkt? Of wat mist er nog of kan beter?
+
+  Student 3 AYA
+  -Eigen website: hoe zijn hier de h'tjes verdeeld (h1, h2, etc.)?
+
+  Student 4 MATS
+  -een plan opstellen ivm huiswerk
+
+Algemeen, gehele groep
+  -Hoe werkt een hamburger menu
+  -Feedback voor onze github, vullen we het goed in?
 
 </details>
 
@@ -228,25 +247,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Student 1 MARC
-  -HTML en CSS kort laten zien voor feedback, geen directe vragen
-  
-  Student 2 ROBIN
-  -Kun je grid, flexbox en position door elkaar gebruiken? Of kan het ook anders?
-  -Is mijn HTML goed uitgewerkt? Of wat mist er nog of kan beter?
+  | student 1 MARC     | student 2 ROBIN         | student 3 AYA   | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | HTML en CSS kort laten zien voor feedback, geen directe vragen  | Kun je grid, flexbox en position door elkaar gebruiken? Of kan het ook anders? | Eigen website: hoe zijn hier de h'tjes verdeeld (h1, h2, etc.)? | "een plan opstellen ivm huiswerk" |
+  | en dat ook nog | Is mijn HTML goed uitgewerkt? Of wat mist er nog of kan beter? | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
-  Student 3 AYA
-  -Eigen website: hoe zijn hier de h'tjes verdeeld (h1, h2, etc.)?
-
-  Student 4 MATS
-  -een plan opstellen ivm huiswerk
-
-  Algemeen, gehele groep
-  -Hoe werkt een hamburger menu?
-  -Feedback voor onze github, vullen we het goed in?
-
-
-
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
