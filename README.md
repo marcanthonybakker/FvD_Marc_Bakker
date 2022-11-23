@@ -119,27 +119,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Voor een groot gedeelte gaat het HTMl gedeelte wel goed, alleen heb ik nog wat vraagtekens over dropdown menu's en andere kleine features die de echte site heeft. Maar beide pagina's qua HTML zijn af genoeg om CSS er aan toe te voegen.
+
+  Wat betreft de CSS, ik heb daar al een beginnetje aan gemaakt. Een deel van de header is af. Alleen zit daar een dropdown in die ik niet weet hoe die werkt maar dat komt waarschijnlijk aan bod wanneer we de JAVASCRIPT les hebben. Ander vraag ik dat volgende week. De footer is wel af, voor mobile. Ook heb ik al gespeeld met media querys. Dat is dan op 320px breed en al het andere is een andere stijl. Tot nu toe verranderd er alleen wat sections met grid.
+
+  Ik wil nog eens grondig door alle opdrachten, of op zijn minst de opdrachten waar ik iets van wil gebruiken in mijn eigen opdracht. Ik heb ze wel al gedaan, maar ik begrijp het nog niet helemaal. De opdrachten duren heel lang voor mij. Ik hoop er sneel doorheen te gaan nu ik er les over heb gehad.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
   | student 1 MARC     | student 2 ROBIN         | student 3 AYA   | student 4        |
   | ---            | ---                | ---          | ---              |
   | HTML en CSS kort laten zien voor feedback, geen directe vragen  | Kun je grid, flexbox en position door elkaar gebruiken? Of kan het ook anders? | Eigen website: hoe zijn hier de h'tjes verdeeld (h1, h2, etc.)? | "een plan opstellen ivm huiswerk" |
-  | en dat ook nog | Is mijn HTML goed uitgewerkt? Of wat mist er nog of kan beter? | nog een punt | dit wil ik zeker |
+  | ... | Is mijn HTML goed uitgewerkt? Of wat mist er nog of kan beter? | ... | ... |
   | ...            | ...                | ...          | ...              |
 
   Algemeen, gehele groep
-  -Hoe werkt een hamburger menu
-  -Feedback voor onze github, vullen we het goed in?
+  - Hoe werkt een hamburger menu
+  - Feedback voor onze github, vullen we het goed in?
 
 
   ### Verslag van meeting
