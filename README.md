@@ -116,7 +116,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>HALF GEDAAN | uitwerken voor 1e voortgang</summary>
+  <summary>GEDDAAN | uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
   Voor een groot gedeelte gaat het HTMl gedeelte wel goed, alleen heb ik nog wat vraagtekens over dropdown menu's en andere kleine features die de echte site heeft. Maar beide pagina's qua HTML zijn af genoeg om CSS er aan toe te voegen.
@@ -143,10 +143,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+
+  Feedbaack voor mij
+  - Een nav heeft geen section, article etc nodig.
+  - Section en artice moet andersom, check even de syntax nog even.
+  - Gebruik alleen > als het echt nodig is. De CSS kan korter, dat maakt het meer overzichtelijk.
+  - Plaats iets meer plaatjes, dat geeft het prototype wat meer overzicht. Je hoeft niet alle plaatjes te hebben.
+  - Zet kopjes onder de foto's.
+
+  Handige feedback die de rest van het team heeft gekregen
+  - Metadata, Data dat iets over de content zegt: Datum, Publicatie, Art, Design etc. 
+  - Je kan tags verwijderen in website inspector om te debuggen.
+  - Je kan weglaten wat je wilt in je opdracht, daag jezelf uit met de opdracht, doe dingen die je nog niet weet.
+  - Met visually hidden class kan je tags onzichtbaar maken, bijvoorbeeld een H1.
+
 
 </details>
 
