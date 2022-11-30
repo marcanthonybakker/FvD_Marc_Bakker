@@ -116,7 +116,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>GEDDAAN | uitwerken voor 1e voortgang</summary>
+  <summary>GEDAAN | uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
   Voor een groot gedeelte gaat het HTMl gedeelte wel goed, alleen heb ik nog wat vraagtekens over dropdown menu's en andere kleine features die de echte site heeft. Maar beide pagina's qua HTML zijn af genoeg om CSS er aan toe te voegen.
@@ -151,7 +151,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Plaats iets meer plaatjes, dat geeft het prototype wat meer overzicht. Je hoeft niet alle plaatjes te hebben.
   - Zet kopjes onder de foto's.
 
-  Handige feedback die de rest van het team heeft gekregen
+  Handige feedback die de rest van het groepje heeft gekregen
   - Metadata, Data dat iets over de content zegt: Datum, Publicatie, Art, Design etc. 
   - Je kan tags verwijderen in website inspector om te debuggen.
   - Je kan weglaten wat je wilt in je opdracht, daag jezelf uit met de opdracht, doe dingen die je nog niet weet.
@@ -247,7 +247,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | Code snel laten zien, geen specifieke vragen  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 

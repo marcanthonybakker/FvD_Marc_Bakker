@@ -20,19 +20,6 @@ button, summary {
 
 
 
-/*  */
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
-
-
-
 
 
 /****************/
@@ -42,9 +29,11 @@ button, summary {
 :root {
 	--dx-rood: #E64646;
 	--dx-grijs: #777777;
+	--dx-lichtgrijs: #e4e4e4;
 	--dx-zwart: #222222;
 	--bg-dag: #ffffff;
 	--bg-nacht: #222222;
+	--dx-wit: #ffffff;
 }
 
 
@@ -66,11 +55,7 @@ body {
 	margin: 0em 1em 0em 1em;
 }
 
-img {
-	max-width: 100px;
-}
-
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, a, button {
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -90,13 +75,17 @@ ul {
 /* HEADER */
 /****************/
 
-header>article:first-of-type {
+h1 {
+	visibility: hidden;
+}
+
+header>section:first-of-type {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
 }
 
-header>article:first-of-type>section>select{
+header>section:first-of-type>article>select{
 	padding: 5px 10px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
@@ -104,11 +93,11 @@ header>article:first-of-type>section>select{
 	margin-right: 1.5em;
 }
 
-header>article:first-of-type img {
+header>section:first-of-type img {
 	max-width: 25px;
 }
 
-header>article:first-of-type img:first-of-type {
+header>section:first-of-type img:first-of-type {	
 	margin-right: 1em;
 }
 
@@ -120,9 +109,92 @@ header>article:first-of-type img:first-of-type {
 /* MAIN */
 /****************/
 
-main article {
+main section article h3, p, a {
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+main h2 {
+	color: var(--dx-rood);
+	font-size: 1.2em;
+	margin-top: 3em;
+}
+
+main h2:first-of-type {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--dx-grijs);	
+	margin-bottom: 1em;
+}
+
+main h2:first-of-type {
+	color: var(--dx-rood);
+	font-size: 1.3em;
+	font-weight: 800;
+}
+
+main h2 {
+	color: var(--dx-zwart);
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+main>a {
+	color: var(--dx-rood);
+	font-weight: 800;
+}	
+
+main section {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	row-gap: 1em;
+	text-align: center;
+	margin-top: 1.5em;
+	column-gap: 1.5em;
+}
+
+main section article {
+	display: grid;
+	grid-template-rows: 1fr;
+}
+
+main section article p {
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+main section article button {
+	background-color: var(--dx-wit);
+	border-style: solid;
+	border-color: var(--dx-zwart);
+	border-width: 1px;
+	font-size: 0.8em;
+	padding: 5px 5px 5px 5px;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+
+/****************/
+/* MAIN BUISNESS PARTNERS LIJST*/
+/****************/
+
+main>article:last-of-type {
+	background-color: var(--dx-lichtgrijs);
+}
+
+main>article:last-of-type ul {
+	display: flex;
+	overflow-x: scroll;	
+	align-items: center;
+	margin: 5em 0em 5em 0em;
+}
+
+main>article:last-of-type ul li img {
+	width: 150px;
+	margin: 0.5em 1em 0.5em 1em;
 }
 
 
@@ -215,12 +287,12 @@ footer>article:nth-of-type(2) section img {
 /* MEDIA QUERYS */
 /****************/
 
-@media (max-width: 330px) {
+@media (max-width: 530px) {
 	footer>article:first-of-type {
 		grid-template-columns: repeat(1, 1fr);	
 	}
 
-	main article {
-		grid-template-columns: repeat(2, 1fr);
+	main section {
+		grid-template-columns: repeat(2, 2fr);
 	}
 }
