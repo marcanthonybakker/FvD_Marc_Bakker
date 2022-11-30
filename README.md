@@ -167,10 +167,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2e voortgang</summary>
+  <summary>HALF GEDAAN | uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze week heb ik minder berijkt dan ik wilde. Dus tot nu toe heb ik nauwelijks de css af van de 1e pagina. Wel heb ik alle opdrachten tenminste geprobeerd.
 
 
   ### Agenda voor meeting
@@ -247,7 +247,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Code snel laten zien, geen specifieke vragen  | en dit             | en ik dit    | en dan ik dat    |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
