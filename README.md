@@ -308,7 +308,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <li>Bron: Icon giropay<a href="https://en.wikipedia.org/wiki/Giropay">https://en.wikipedia.org/wiki/Giropay</a></li>
   <li>Bron: Logo +Iconset plamodx<a href="https://plamodx.nl/">https://plamodx.nl/</a></li>
   <li>Bron: Product foto's plamodx<a href="https://plamodx.nl/">https://plamodx.nl/</a></li>
-  <li>Bron: <a href=""></a></li>
+  <li>Bron: SVG header icons<a href="https://www.iconfinder.com/search?q=profile"></a></li>
+
+
+
 <ol>
 
 </details>

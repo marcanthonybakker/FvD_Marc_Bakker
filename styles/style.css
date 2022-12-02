@@ -67,6 +67,10 @@ ul {
 	list-style-type: none;
 }
 
+main, header, footer section:first-of-type {
+	margin: 0em 7em 0em 7em;	
+}
+
 
 
 
@@ -75,14 +79,25 @@ ul {
 /* HEADER */
 /****************/
 
-h1 {
-	visibility: hidden;
+header {
+	position: sticky;
 }
 
-header>section:first-of-type {
+h1 {
+	visibility: hidden;
+}	
+
+header section:first-of-type {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
+}
+
+header section:first-of-type article {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 1.5em;
 }
 
 header>section:first-of-type>article>select{
@@ -93,12 +108,112 @@ header>section:first-of-type>article>select{
 	margin-right: 1.5em;
 }
 
+header section:nth-of-type(2) article {
+	display: grid;
+	align-items: center;
+	column-gap: 0.7em;
+	grid-template-columns: 1fr auto auto auto auto auto;
+}
+
+header section:nth-of-type(2) article button {
+	background-color: var(--dx-wit);
+	border-style: none;
+}
+
 header>section:first-of-type img {
 	max-width: 25px;
 }
 
 header>section:first-of-type img:first-of-type {	
 	margin-right: 1em;
+}
+
+header section:nth-of-type(2) article img {
+	max-width: 160px;
+	margin-bottom: 1.5em;
+}
+
+/* SVG HEADER ANIMATIE EN STIJL */
+
+.searchbarknop {
+	width: 2em;
+}
+
+.inlogknop {
+	width: 2em;
+}
+
+.hartknop {
+	width: 2em;
+}
+
+.winkelmandjeknop {
+	width: 2em;
+}
+
+/* HEADER HAMBURGER MENU */
+
+header section:last-of-type article button {
+	display: flex;
+	align-items: center;
+	gap: 0.7em;
+	border-style: none;
+	width: 100%;
+	color: var(--dx-grijs);
+	background-color: var(--dx-lichtgrijs);
+	padding: 8px 0px 8px 0px;
+	margin-bottom: 1em;
+}
+
+header section:last-of-type article nav button {
+	background-color: var(--dx-lichtgrijs);
+}
+
+header section:last-of-type article button img{
+	width: 12px;
+	margin-left: 1.5em;
+}
+
+header section:last-of-type article nav ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	background-color: var(--dx-wit);
+}
+
+header section:last-of-type article nav ul li {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	row-gap: 0.5em;
+}
+
+header section:last-of-type article nav ul li a img {
+	width: 5em;
+}
+
+header section:last-of-type article nav ul li a img:first-of-type {
+	margin-top: 2em;
+}
+
+header section:last-of-type article nav ul li a:last-of-type {
+	margin-bottom: 2em;
+	color: var(--dx-grijs);
+	font-size: 1.1em;
+}
+
+header section:last-of-type article nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transform:translateY(-100%);
+	transition: .3s;
+}
+
+header section:last-of-type article nav.toonMenu {
+	transform: translateY(0);
 }
 
 
@@ -115,27 +230,16 @@ main section article h3, p, a {
 }
 
 main h2 {
-	color: var(--dx-rood);
-	font-size: 1.2em;
+	color: var(--dx-zwart);
+	font-size: 1.5em;
 	margin-top: 3em;
-}
-
-main h2:first-of-type {
-	padding-bottom: 1em;
-	border-bottom: 1px solid var(--dx-grijs);	
-	margin-bottom: 1em;
+	font-weight: 450;
 }
 
 main h2:first-of-type {
 	color: var(--dx-rood);
 	font-size: 1.3em;
 	font-weight: 800;
-}
-
-main h2 {
-	color: var(--dx-zwart);
-	font-size: 1.5em;
-	font-weight: 500;
 }
 
 main>a {
@@ -159,6 +263,7 @@ main section article {
 
 main section article p {
 	margin: 0.5em 0em 0.5em 0em;
+	font-weight: 600;
 }
 
 main section article button {
@@ -177,102 +282,91 @@ img {
 
 
 
+
+
+
 /****************/
-/* MAIN BUISNESS PARTNERS LIJST*/
+/* FOOTER */
 /****************/
 
-main>article:last-of-type {
+footer>article {
 	background-color: var(--dx-lichtgrijs);
 }
 
-main>article:last-of-type ul {
+footer>article ul {
 	display: flex;
 	overflow-x: scroll;	
 	align-items: center;
 	margin: 5em 0em 5em 0em;
 }
 
-main>article:last-of-type ul li img {
+footer>article:last-of-type ul li img {
 	width: 150px;
 	margin: 0.5em 1em 0.5em 1em;
 }
 
-
-
-
-
-
-/****************/
-/* FOOTER 1e SECTION*/
-/****************/
-
-footer>article:first-of-type {
+footer>section:first-of-type {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);	
 	list-style: none;
 }
 
-footer>article:first-of-type>section>h3 {
+footer>section:first-of-type>article>h3 {
 	margin-bottom: 1em;
 	font-size: 1em;
 }
 
-footer>article:first-of-type>section:nth-of-type(4)>nav>ul {
+footer>section:first-of-type>article:nth-of-type(4)>nav>ul {
 	display: flex;
 	gap: 1em;
 }
 
-footer>article:first-of-type section nav ul li a {
+footer>section:first-of-type article nav ul li a {
 	color: var(--dx-grijs);
 }
 
-footer>article:first-of-type section nav ul li{
+footer>section:first-of-type article nav ul li{
 	margin-top: 1em;
 }
 
-footer>article:first-of-type>section>h3 {
+footer>section:first-of-type>article>h3 {
 	color: var(--dx-rood);
 }
 
-footer>article:nth-of-type(2)>section>h3 {
+footer>section:nth-of-type(2)>article>h3 {
 	color: var(--dx-grijs);
 	font-weight: 300;
 	font-size: 0.8em;
 	margin-top: 2em;
 }
 
-footer>article:first-of-type>section:nth-of-type(4)>nav>ul>li img {
+footer>section:first-of-type>article:nth-of-type(4)>nav>ul>li img {
 	max-width: 25px;
 }
 
-footer>article:first-of-type>section {
-	margin-bottom: 1em;
+footer>section:first-of-type>article {
+	margin-bottom: 7em;
 }
 
+/* FOOTER COPYRIGHT EN BETAALMETHODES */
 
-
-
-/****************/
-/* FOOTER 2e SECTION*/
-/****************/
-
-footer>article:nth-of-type(2) section {
+footer>section:nth-of-type(2) article {
 	border-top: 1px solid var(--dx-grijs);
 }
 
-footer>article:nth-of-type(2) ul {
+footer>section:nth-of-type(2) ul {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
 }
 
-footer>article:nth-of-type(2) li {
+footer>section:nth-of-type(2) li {
 	border: 1px solid var(--dx-zwart);
 	padding: 3px 5px 0px 5px;
 	margin: 2em 0em 5em 0em;
 }
 
-footer>article:nth-of-type(2) section img {
+footer>section:nth-of-type(2) article img {
 	width: 30px;
 	max-height: 20px;
 	border: var(--dx-zwart);
@@ -287,12 +381,34 @@ footer>article:nth-of-type(2) section img {
 /* MEDIA QUERYS */
 /****************/
 
+@media (max-width: 1000px) {
+	main, header, footer section:first-of-type {
+		margin: 0em 2em 0em 2em;
+	}
+
+	footer>section:first-of-type>article {
+		margin-bottom: 4em;
+	}
+}
+
 @media (max-width: 530px) {
-	footer>article:first-of-type {
+	footer>section:first-of-type {
 		grid-template-columns: repeat(1, 1fr);	
 	}
 
 	main section {
 		grid-template-columns: repeat(2, 2fr);
+	}
+
+	header section:last-of-type article nav ul {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main, header, footer section:first-of-type {
+		margin: 0;
+	}
+
+	footer>section:first-of-type>article {
+		margin-bottom: 1em;
 	}
 }
