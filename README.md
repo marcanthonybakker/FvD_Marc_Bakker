@@ -167,7 +167,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>HALF GEDAAN | uitwerken voor 2e voortgang</summary>
+  <summary>GEDAAN | uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
   Deze week heb ik minder berijkt dan ik wilde. Dus tot nu toe heb ik nauwelijks de css af van de 1e pagina. Wel heb ik alle opdrachten tenminste geprobeerd.
@@ -176,19 +176,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1 Marc     | student 2 Robin         | student 3 Aya    | student 4 Mats       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | Ik wil alleen maar mijn code effe snel laten zien. Geen specifieke vragen  | Ik wil ook mijn code laten zien en checken of het haalbaar is om responsive & animaties te doen             | Je kan de content veranderen zoals bijvoorbeeld een hamburgermenu img naar een kruisje door 'content: url()' in je css te zetten. Alleen hoe doe je dat als je geen url hebt maar een svg afbeelding?    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  Feedback voor mij
+  - Gebruik de summary en details tag voor dropdown menu's.
+  - Je kan twee plaatjes over elkaar zetten om met een hoover de afbeelding te verranderen.
+  - Aria label helpt met het defininieren van tags die niet goed vertolkt worden met de screenreader.
+  - Check de syntax van :focus-within, je kan er leuke dingen mee doen.
 
 </details>
 
@@ -308,7 +309,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <li>Bron: Icon giropay<a href="https://en.wikipedia.org/wiki/Giropay">https://en.wikipedia.org/wiki/Giropay</a></li>
   <li>Bron: Logo +Iconset plamodx<a href="https://plamodx.nl/">https://plamodx.nl/</a></li>
   <li>Bron: Product foto's plamodx<a href="https://plamodx.nl/">https://plamodx.nl/</a></li>
-  <li>Bron: SVG header icons<a href="https://www.iconfinder.com/search?q=profile"></a></li>
+  <li>Bron: SVG header icons<a href="https://www.iconfinder.com/search?q=profile">https://www.iconfinder.com</a></li>
+  <li>Bron: MDN docs<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary</a></li>
+  <li>Bron: <a href=""></a></li>
+  <li>Bron: <a href=""></a></li>
+  <li>Bron: <a href=""></a></li>
+  <li>Bron: <a href=""></a></li>
+  <li>Bron: <a href=""></a></li>
+  
 
 
 
