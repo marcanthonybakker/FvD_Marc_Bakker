@@ -205,8 +205,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  SCREENREADER
+  -De buttons, links en images zijn beter beschreven met door de toegevoegde alt tekst.
+  -De menu links worden meteen gelezen, maar dit is het enigste punt om naar deze categoriën te gaan.
+  -De knop wordt twee keer verteld, zie afbeelding.
+  -Language staat in de HTML op NL, dat kan helpen met de screenreader.
+
+
+  MUIS & TOETSENBORD
+  -Er zijn nog geen states zoals hoover ,active , focus kan het navigeren sterk verduidelijken.
+  -Er is ook nog niet veel variatie in interactive tags, zoals forms, maar de buttons en links werken wel.
+
+  SLECHTE MOTORIEK
+  -De a's zijn net iets te klein. De icoon buttons zijn net op het randje qua formaat.
+
+  VISUELE BEPERKINGEN
+  -Periphal field loss, prima te doen.
+  -Color #0779p (geel beeld), Genoeg kleur contrast om verschil te kunnen zien.
+  -Low contrast, de grijze letters van de huisstijl zijn onleesbaar.
+
+  CONCETRATIE PROBLEMEN
+  -Erg moeilijk om de footer te navigeren, misschien helpen iconen die de onderwerpen visueel uitleggen.
+  -Maar ik vindt het moeilijk om iets te verzinnen dat dit verhelpt.  
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De site is goed te 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
