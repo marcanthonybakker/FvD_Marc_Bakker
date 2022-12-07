@@ -205,7 +205,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-  SCREENREADER
+  ### SCREENREADER
   </ul>
     <li>De buttons, links en images zijn beter beschreven met door de toegevoegde alt tekst.</li>
     <li>De menu links worden meteen gelezen, maar dit is het enigste punt om naar deze categoriën te gaan.</li>
@@ -213,25 +213,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     <li>Language staat in de HTML op NL, dat kan helpen met de screenreader.</li>
   <ul>
 
-  MUIS & TOETSENBORD
-    </ul>
+  ### MUIS & TOETSENBORD
+  </ul>
     <li>Er zijn nog geen states zoals hoover ,active , focus kan het navigeren sterk verduidelijken.</li>
     <li>Er is ook nog niet veel variatie in interactive tags, zoals forms, maar de buttons en links werken wel.</li>
   <ul>
 
-  SLECHTE MOTORIEK
+  ### SLECHTE MOTORIEK
   </ul>
     <li>De a's zijn net iets te klein. De icoon buttons zijn net op het randje qua formaat.</li>
   <ul>
 
-  VISUELE BEPERKINGEN
+  ### VISUELE BEPERKINGEN
   </ul>
     <li>Periphal field loss, prima te doen.</li>
     <li>Color #0779p (geel beeld), Genoeg kleur contrast om verschil te kunnen zien.</li>
     <li>Low contrast, de grijze letters van de huisstijl zijn onleesbaar.</li>
   <ul>
 
-  CONCETRATIE PROBLEMEN
+  ### CONCETRATIE PROBLEMEN
   </ul>
     <li>Erg moeilijk om de footer te navigeren, misschien helpen iconen die de onderwerpen visueel</li>
     <li>Maar ik vindt het moeilijk om iets te verzinnen dat dit verhelpt. </li>
