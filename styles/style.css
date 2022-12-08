@@ -40,6 +40,43 @@ button, summary {
 
 
 
+/****************/
+/* STATES */
+/****************/
+
+a:focus {
+	
+	text-decoration:underline;
+	text-decoration-thickness: 5px;
+	text-underline-offset: 4px;
+	text-decoration-color: var(--dx-rood);
+}
+
+
+/****************/
+/* Search bar*/
+/****************/
+
+input {
+	opacity: 0;
+	border-color: 2px var(--dx-rood);
+	padding:.25em;
+	font-size: 1em;
+	margin-bottom: 0em;
+	width: 100%;
+	transition: .1s;
+}
+
+input:focus {
+	opacity: 1;
+	border-color: 1px var(--dx-rood);
+	margin-bottom: 1em;
+}
+
+
+
+
+
 
 /****************/
 /* Algemeen */
@@ -88,8 +125,18 @@ header {
 	position: sticky;
 }
 
+header>div {
+	margin-top: 2em;
+}
+
 h1 {
-	visibility: hidden;
+	clip: rect(0 0 0 0); 
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap; 
+	width: 1px;
 }	
 
 header section:first-of-type {
@@ -135,7 +182,6 @@ header>section:first-of-type img:first-of-type {
 
 header section:nth-of-type(2) article img {
 	max-width: 160px;
-	margin-bottom: 1.5em;
 }
 
 header section article button img {
@@ -145,6 +191,8 @@ header section article button img {
 
 
 /* HEADER HAMBURGER MENU */
+
+
 
 header section:last-of-type article button {
 	display: flex;
@@ -206,7 +254,7 @@ header section:last-of-type article nav {
 }
 
 header section:last-of-type article nav.toonMenu {
-	transform: translateY(0);
+	transform: translateY(0);			
 }
 
 
@@ -333,6 +381,11 @@ main.hgmarasaimain section:nth-of-type(2) article div p, main.hgmarasaimain arti
 	color: var(--dx-grijs);
 }
 
+main.hgmarasaimain section:nth-of-type(3) p {
+	font-weight: 600;
+	color: var(--dx-zwart);
+}
+
 main.hgmarasaimain section:nth-of-type(2) article a {
 	color: var(--dx-rood);
 	font-size: 1em;
@@ -404,17 +457,32 @@ main.hgmarasaimain section article button {
 	padding: 5px 5px 5px 5px;
 }
 
-main.hgmarasaimain section:nth-last-of-type(2) article button:first-of-type {
+main.hgmarasaimain section article button {
 	display: flex;
 	align-items: center;
+	text-align: center;
+}
+
+main.hgmarasaimain section:nth-last-of-type(2) article button:first-of-type {
 	border: none;
 	color: var(--dx-rood);
 	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+main.hgmarasaimain section:nth-last-of-type(2) article button:last-of-type {
+	border: none;
+	background-color: var(--dx-zwart);
+	color: var(--dx-wit);
+	font-size: 1em;
+	font-weight: 600;
+	padding: 15px 20px 15px 20px;
 	margin-bottom: 2em;
 }
 
-main.hgmarasaimain section article button:first-of-type>img {
+main.hgmarasaimain section article button img {
 	width: 17px;
+	margin-right: 5px;
 }
 
 

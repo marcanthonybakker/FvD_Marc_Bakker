@@ -246,7 +246,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  De site is goed te 
+  De echte site had een menu dat niet ge read werd, afbeeldingen werden niet duidelijk beschreven, en links missen duidelijke beschrijvingen. Dat heb ik met mijn 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -286,10 +286,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | MARC student 1      | AYA student 2          | ROBIN student 3    | MATS student 4        |
+  | Snel door mijn code website heen kijken.           | ---                | ---          | ---              |
+  | Vragen of mijn website voldoende variatie heeft.'  | en dit             | en ik dit    | en dan ik dat    |
+  | Mag ik var gebruiken als container rondom tags die wel syntax hebben.| dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
