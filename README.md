@@ -307,8 +307,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | Snel door mijn code website heen kijken.  |  mag ik een class gebruiken om een h1 visually hidden te maken         |     |  Even mijn code bekijken   |
   | Vragen of mijn website voldoende variatie heeft. | responsiveness op mijn 2e pagina werkt niet helemaal |  | vragen of het gebruik van div’s correct is |
-  | Mag ik var gebruiken als container rondom tags die wel syntax hebben.  | is er genoeg variatie voor het service deel of moet ik nog meer toevoegen
-+ waarom ik maar op 1 button kan klikken en de andere buttons dan niet werken terwijl ze hetzelfde doen                | ...          | ...              |
+  | Mag ik var gebruiken als container rondom tags die wel syntax hebben.  | is er genoeg variatie voor het service deel of moet ik nog meer toevoegen en waarom ik maar op 1 button kan klikken en de andere buttons dan niet werken terwijl ze hetzelfde doen                | ...          | ...              |
 
 
   ### Verslag van meeting
