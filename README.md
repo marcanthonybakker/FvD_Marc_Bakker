@@ -213,15 +213,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     <li>Language staat in de HTML op NL, dat kan helpen met de screenreader.</li>
   <ul>
 
+  <img src="./knopvoorbeeld.jp" width="375px" alt="Abeelding voorbeeld screenreader, knop wordt twee keer verteld">
+
   ### MUIS & TOETSENBORD
   </ul>
-    <li>Er zijn nog geen states zoals hoover ,active , focus kan het navigeren sterk verduidelijken.</li>
+    <li>Er zijn nog geen states zoals hoover ,active , focus etc. Dit kan het navigeren sterk verduidelijken.</li>
     <li>Er is ook nog niet veel variatie in interactive tags, zoals forms, maar de buttons en links werken wel.</li>
   <ul>
 
   ### SLECHTE MOTORIEK
   </ul>
-    <li>De a's zijn net iets te klein. De icoon buttons zijn net op het randje qua formaat.</li>
+    <li>De a's zijn misschien net iets te klein. De icoon buttons zijn net op het randje qua formaat.</li>
   <ul>
 
   ### VISUELE BEPERKINGEN
@@ -246,27 +248,41 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  De echte site had een menu dat niet ge read werd, afbeeldingen werden niet duidelijk beschreven, en links missen duidelijke beschrijvingen. Dat heb ik met mijn 
+
+  De echte site had een menu dat niet ge read werd, afbeeldingen werden niet duidelijk beschreven, en links missen duidelijke beschrijvingen. Dat heb ik met mijn website anders gedaan. Ik heb zo veel mogelijk uitgebreide beschrijvingen geschreven.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Hoe het nog beter kan is het gebruik maken van aria labels voor interactieve elementen die niet beschreven worden. Dan kan een screenreader dat lezen zodat de gebruiker de website beter begrijpt.
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Omdat er nog geen states in de site zitten is het heel goed te zien dat het niet duidelijk is waar je, op het moment bent op de site.
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Ik kan gebruik maken van :focus, :visited, :hover, :disabled, :invalid, :valid, :indeterminate, :checked. Als ik deze states vorm geef, maakt de gebruiker duidelijk wat hij doet, wat hij fout of goed doet. Ik heb alleen geen echte formulier op de site, dus states niet alle sates die hierboven staan zijn bruikbaar.
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Het was nog redelijk moeilijk, met name de icoontjes (facebook, instragram, search etc). Deze waren net iets te klein.
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  Door simpel weg ze net iets groter te maken. Maar dit kan tenkoste gaan van de estethische stijl van de site. Dus dat moet voorzichtig aangepast worden.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Met meeste brillen viel het wel mee, maar met de low contrast bril worden de grijze tekst wat bij de huisstijl hoort met het meeste van haar broodtekst. Wordt deze tekst als snel onzichtbaar.
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Door gebruik te maken van :root voor de kleuren. Kan je makkelijk deze aanpassen voor @media prefers high contrast. (En als je dan al toch bezig bent kan je ook gaan aanpassen voor darkmode, @media (prefers-color-scheme: dark))
 
 </details>
 
@@ -286,11 +302,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | MARC student 1      | AYA student 2          | ROBIN student 3    | MATS student 4        |
-  | Snel door mijn code website heen kijken            | ---                | mag ik een class gebruiken om een h1 visually hidden te maken         | Ja even mijn code bekijken             |
-  | Vragen of mijn website voldoende variatie heeft.  | en dit             | responsiveness op mijn 2e pagina werkt niet helemaal    | of het gebruik van div’s correct is   |
-  | Mag ik var gebruiken als container rondom tags die wel syntax hebben. | dit als er tijd is | is er genoeg variatie voor het service deel of moet ik nog meer toevoegen | dit wil ik zeker |
-  | ...            | ...                | waarom ik maar op 1 button kan klikken en de andere buttons dan niet          | ...              |
+
+  | student 1 Marc     | student 2 Robin         | student 3 Aya    | student 4 Mats       |
+  | ---            | ---                | ---          | ---              |
+  | Snel door mijn code website heen kijken.  |  mag ik een class gebruiken om een h1 visually hidden te maken         |     |  Even mijn code bekijken   |
+  | Vragen of mijn website voldoende variatie heeft. | responsiveness op mijn 2e pagina werkt niet helemaal |  | vragen of het gebruik van div’s correct is |
+  | Mag ik var gebruiken als container rondom tags die wel syntax hebben.  | is er genoeg variatie voor het service deel of moet ik nog meer toevoegen
++ waarom ik maar op 1 button kan klikken en de andere buttons dan niet werken terwijl ze hetzelfde doen                | ...          | ...              |
 
 
   ### Verslag van meeting
