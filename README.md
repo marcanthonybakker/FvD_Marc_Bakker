@@ -286,12 +286,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | MARC student 1      | AYA student 2          | ROBIN student 3    | MATSstudent 4        |
-  | Snel door mijn code website heen kijken.           | ---                | 1. mag ik een class gebruiken om een h1 visually hidden te maken          | even mijn code bekijken              |
-  | Vragen of mijn website voldoende variatie heeft.'  | en dit             | en ik dit    | 2. responsiveness op mijn 2e pagina werkt niet helemaal   | En vragen of het gebruik van div’s correct is
-  | Mag ik var gebruiken als container rondom tags die wel syntax hebben.| dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | 3. is er genoeg variatie voor het service deel of moet ik nog meer toevoegen
-4. waarom ik maar op 1 button kan klikken en de andere buttons dan niet werken terwijl ze hetzelfde doen          | ...              |
+  | MARC student 1      | AYA student 2          | ROBIN student 3    | MATS student 4        |
+  | Snel door mijn code website heen kijken            | ---                | mag ik een class gebruiken om een h1 visually hidden te maken         | Ja even mijn code bekijken             |
+  | Vragen of mijn website voldoende variatie heeft.  | en dit             | responsiveness op mijn 2e pagina werkt niet helemaal    | of het gebruik van div’s correct is   |
+  | Mag ik var gebruiken als container rondom tags die wel syntax hebben. | dit als er tijd is | is er genoeg variatie voor het service deel of moet ik nog meer toevoegen | dit wil ik zeker |
+  | ...            | ...                | waarom ik maar op 1 button kan klikken en de andere buttons dan niet          | ...              |
 
 
   ### Verslag van meeting
