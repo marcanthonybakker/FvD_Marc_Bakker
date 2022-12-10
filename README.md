@@ -38,12 +38,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   https://plamodx.nl/
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  Modelkit webshop voorpagina  
+  #### Screenshot(s) van de eerste pagina (small screen) Modelkit webshop voorpagina:   
   <img src="readme-images/plamodx1voorpagina.png" width="375px" alt="Voorpagina van plamodx modelkitwebsite">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Modelkit webshop detailpagina
+  #### Screenshot(s) van de tweede pagina (small screen) Modelkit webshop detailpagina:
   <img src="readme-images/plamodx2detailpagina.png" width="375px" alt="Detailpagina van plamodx modelkitwebsite">
  
 </details>
