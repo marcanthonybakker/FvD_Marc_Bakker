@@ -52,7 +52,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>GEDAAN | uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
@@ -95,7 +95,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
   <summary>GEDAAN | uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
@@ -115,7 +115,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
   <summary>GEDAAN | uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
@@ -166,7 +166,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>GEDAAN | uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -199,7 +199,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
@@ -237,13 +237,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   </ul>
     <li>Erg moeilijk om de footer te navigeren, misschien helpen iconen die de onderwerpen visueel</li>
     <li>Maar ik vindt het moeilijk om iets te verzinnen dat dit verhelpt. </li>
-  <ul>
-
-  </ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
   <ul>
 
   #### Screenreader
@@ -292,11 +285,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  Ik heb in het weekend van vorige week hard gewerkt om ongeveer klaar te zijn met beide pagina's. Dat is tot een groot deel gelukt, alleen mist het een groot gedeelte, de states. Zonder dit zal de site nooit af zijn. De kleine details die ik nog mis zijn dingen zoals animatie(s) en verranderende foto's als je over de product foto's hoovert. Voor de rest kwam ik niet tegen lastige delen want ik was nog bezig met het afronden van de twee pagina, wat ik gedaan heb met de geleerde code kennis van de afgelopen drie weken.
 
 
   ### Agenda voor meeting
@@ -313,10 +308,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Feedback voor mij
+
+  - Met de @mediaquery's, met maxwidt, pas als de 4 product artikel/afbeeldingen mooi naast elkaar kunnen staan, dan pas laten zien. En voor alle sherm breedtje daarvoor (de 2x2 versie van de product artikels) vul deze ruimte met witruimte. PRE.
+  - De states moeten er natuurlijk in. PRE.
+  - Animatie kan als je er tijd voor hebt, stel je voor je hoovert over je product artikels en met transition animeer je deze. ALS IK TIJD HEB.
+  - Scroll snap voor de sponsors in de footer, kijk daar naar. ALS IK TIJD HEB.
 
 </details>
 
@@ -326,23 +323,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/uitkomst1.png" width="375px" alt="uitomst opdracht 1">
+
+  <img src="readme-images/uitkomst2.png" width="375px" alt="uitomst opdracht 1">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Dit is de eerste keer dat ik met html/css het gevoel heb dat ik een site heb gemaakt die er ook echt uitziet als een echte website. Positioneren met Flex was ik in het begin nog slecht mee (en grid had ik al helemaal niet aangeraakt nog) dat gaat nu wat beter. Maar ik moet nog meer met grids oefenen, want ik vindt het rows en columns systeem nog een beetje ingewikkeld. Met media query's werken is erg leuk, maar kan snel ingewikkeld worden. Maar super gaaf om je eigen website responsive te zien.
+
+  <img src="readme-images/gridresponsive1.png" width="375px" alt="voorbeeld responsive grid">
+
+  <img src="readme-images/gridresponsive2.png" width="375px" alt="voorbeeld responsive grid">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Met dingen zoals animaties, position heb ik erg weinig gedaan omdat het mij enorm veel tijd kost. Als ik meer tijd had zou ik daar meer mee gedaan hebben. Zoals in deze opdracht zou ik graag nummers en animatie willen toevoegen wanneer je iets aan je winkelmandje stopt. Maar gelukkig kan ik altijd nog kijken naar de codepens van de opdracht.
+
+  Wat ook niet (binnen een korte tijd) lukte was een functie dat ervoor zorgt dat als je over een artikel afbeelding hoovert dat de afbeelding dan verranderd. Dat was een gemiste kans want ik ben nog niet goed genoeg in position en javascript.
+
+  Daarnaast moet ik met nieuwe projecten meteen mijn css goed sorteren per elk deel van de site met duidelijke comments en met 1 consistente volgorde de css plaatsen. Dit heb ik nu niet goed gedaan.
+
+  <img src="readme-images/onduidelijkecss.png" width="375px" alt="onduidelijke css">
+
+  Ook kan ik beter met :root de kleuren noemen naar hoofd kleur, accent kleur etc i.p.v. rood, grijs etc. Dit kan prefers high contrast, dark mode veel makkelijker maken.
+
+  <img src="readme-images/rootslechtenaam.png" width="375px" alt="slechte kleurnaam">
 </details>
 
 
@@ -364,19 +378,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <li>Bron: Icon bancontact<a href="https://www.autolakstift.nl/bancontact/">https://www.autolakstift.nl/bancontact/</a></li>
   <li>Bron: Icon paypal<a href="https://nl.m.wikipedia.org/wiki/Bestand:PayPal.svg">https://nl.m.wikipedia.org/wiki/Bestand:PayPal.svg</a></li>
   <li>Bron: Icon giropay<a href="https://en.wikipedia.org/wiki/Giropay">https://en.wikipedia.org/wiki/Giropay</a></li>
-  <li>Bron: Logo +Iconset plamodx<a href="https://plamodx.nl/">https://plamodx.nl/</a></li>
+  <li>Bron: Logo + Iconset plamodx<a href="https://plamodx.nl/">https://plamodx.nl/</a></li>
   <li>Bron: Product foto's plamodx<a href="https://plamodx.nl/">https://plamodx.nl/</a></li>
   <li>Bron: SVG header icons<a href="https://www.iconfinder.com/search?q=profile">https://www.iconfinder.com</a></li>
-  <li>Bron: MDN docs<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary</a></li>
-  <li>Bron: <a href=""></a></li>
-  <li>Bron: <a href=""></a></li>
-  <li>Bron: <a href=""></a></li>
-  <li>Bron: <a href=""></a></li>
-  <li>Bron: <a href=""></a></li>
-  
-
-
-
+  <li>Bron: MDN docs summary tag<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary</a></li>
+  <li>Bron: MDN scroll snap<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type"></a>https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type</li>
+  <li>Bron: MDN disclosure tag<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary"></a>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary</li>
+  <li>Bron: CSS tricks weglaten van H1 voor screenreader<a href="https://css-tricks.com/inclusively-hidden/"></a>https://css-tricks.com/inclusively-hidden/</li>
 <ol>
 
 </details>
