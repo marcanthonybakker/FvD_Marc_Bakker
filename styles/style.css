@@ -28,29 +28,35 @@ button, summary {
 
 :root {
 	--dx-rood: #E64646;
-	--dx-grijs: #777777;
+	--dx-rood-dark: #842626;
+	--dx-grijs: #787878;
 	--dx-lichtgrijs: #e4e4e4;
+	--dx-lichtgrijs-dark: #9c9c9c;
 	--dx-zwart: #222222;
 	--bg-dag: #ffffff;
 	--bg-nacht: #222222;
 	--dx-wit: #ffffff;
+	--dx-groen-active: #024605;
+}
+
+/* Experiment, niet final. Veel icon images kloppen niet */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--dx-rood: #E64646;
+		--dx-rood-dark: #842626;
+		--dx-grijs: #d5d5d5;
+		--dx-lichtgrijs: #6c6c6c;
+		--dx-lichtgrijs-dark: #191919;
+		--dx-zwart: #ffffff;
+		--bg-dag: #222222;
+		--bg-nacht: #ffffff;
+		--dx-wit: #222222;
+		--dx-groen-active: #024605;
+	}
 }
 
 
 
-
-
-/****************/
-/* STATES */
-/****************/
-
-a:focus {
-	
-	text-decoration:underline;
-	text-decoration-thickness: 5px;
-	text-underline-offset: 4px;
-	text-decoration-color: var(--dx-rood);
-}
 
 
 /****************/
@@ -59,7 +65,7 @@ a:focus {
 
 input {
 	opacity: 0;
-	border-color: 2px var(--dx-rood);
+	border-color: var(--dx-rood);
 	padding:.25em;
 	font-size: 1em;
 	margin-bottom: 0em;
@@ -69,10 +75,9 @@ input {
 
 input:focus {
 	opacity: 1;
-	border-color: 1px var(--dx-rood);
+	border-color: var(--dx-rood);
 	margin-bottom: 1em;
 }
-
 
 
 
@@ -96,9 +101,14 @@ h1, h2, h3, h4, p, a, button, em, summary, details {
 	font-family: 'Poppins', sans-serif;
 }
 
+details {
+	color: var(--dx-zwart);
+}
+
 a {
 	text-decoration: none;
 	font-size: 1em;
+	color: var(--dx-zwart)
 }
 
 ul {
@@ -111,6 +121,7 @@ main, header, footer section:first-of-type {
 
 p {
 	font-size: 1em;
+	color: var(--dx-zwart);
 }
 
 
@@ -192,8 +203,6 @@ header section article button img {
 
 /* HEADER HAMBURGER MENU */
 
-
-
 header section:last-of-type article button {
 	display: flex;
 	align-items: center;
@@ -208,6 +217,7 @@ header section:last-of-type article button {
 
 header section:last-of-type article nav button {
 	background-color: var(--dx-lichtgrijs);
+	margin: 0;	
 }
 
 header section:last-of-type article button img{
@@ -220,6 +230,7 @@ header section:last-of-type article nav ul {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	justify-items: center;
 	background-color: var(--dx-wit);
+	border-bottom: 1px solid var(--dx-grijs)
 }
 
 header section:last-of-type article nav ul li {
@@ -268,6 +279,7 @@ header section:last-of-type article nav.toonMenu {
 main section article h3, p, a {
 	font-weight: 400;
 	font-size: 0.8em;
+	color: var(--dx-zwart);
 }
 
 main div h2 {
@@ -312,6 +324,7 @@ main div section article button {
 	background-color: var(--dx-wit);
 	border-style: solid;
 	border-color: var(--dx-zwart);
+	color: var(--dx-zwart);
 	border-width: 1px;
 	font-size: 0.8em;
 	padding: 5px 5px 5px 5px;
@@ -368,6 +381,7 @@ main.hgmarasaimain section:nth-of-type(2) article>div>em {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 1.4em;
+	color: var(--dx-zwart);
 }
 
 main.hgmarasaimain section:nth-of-type(2) article div em {
@@ -377,7 +391,7 @@ main.hgmarasaimain section:nth-of-type(2) article div em {
 }
 
 main.hgmarasaimain section:nth-of-type(2) article div p, main.hgmarasaimain article p {
-	font-size: 1em;
+	font-size: 0.8em;
 	color: var(--dx-grijs);
 }
 
@@ -428,6 +442,7 @@ main.hgmarasaimain section:nth-of-type(2) article summary {
 	font-size: 1em;
 	margin-bottom: 1em;
 	padding: 1em 0em 1em 1em;
+	color: var(--dx-zwart);
 }
 
 main.hgmarasaimain section article:first-of-type nav ul li a {
@@ -457,10 +472,13 @@ main.hgmarasaimain section article button {
 	padding: 5px 5px 5px 5px;
 }
 
-main.hgmarasaimain section article button {
+main.hgmarasaimain section:nth-last-of-type(2) article button {
 	display: flex;
-	align-items: center;
+}
+
+main.hgmarasaimain section article button {
 	text-align: center;
+	color: var(--dx-zwart);
 }
 
 main.hgmarasaimain section:nth-last-of-type(2) article button:first-of-type {
@@ -502,6 +520,11 @@ footer>article ul {
 	overflow-x: scroll;	
 	align-items: center;
 	margin: 5em 0em 5em 0em;
+	scroll-snap-type: x mandatory;
+}
+
+footer>article ul li {
+	scroll-snap-align: center;
 }
 
 footer>article:last-of-type ul li img {
@@ -582,6 +605,154 @@ footer>section:nth-of-type(2) article img {
 
 
 
+/****************/
+/* STATES */
+/****************/
+
+/* Buttons algemeen */
+
+button:hover, button:focus {
+	color: var(--dx-wit);
+	background-color: var(--dx-rood);
+	border-color: var(--dx-rood);
+	transition: 0.3s;
+}
+
+button:active {
+	color: var(--dx-wit);
+	background-color: var(--dx-rood-dark);
+	border-color: var(--dx-rood-dark);
+	transition: 0.3s;
+}
+
+
+
+/* Button hamburger menu */
+
+header section:last-of-type article button:hover, header section:last-of-type article button:focus {
+	background-color: var(--dx-lichtgrijs-dark);
+}
+
+header section:last-of-type article button:active {
+	background-color: var(--dx-rood-dark);
+	color: var(--dx-wit);		
+}
+
+
+
+/* Buttons tweede pagina */
+
+main.hgmarasaimain section article button:hover, main.hgmarasaimain section article button:focus {
+	color: var(--dx-wit);
+	background-color: var(--dx-rood);
+	border-color: var(--dx-rood);
+	transition: 0.3s;
+}
+
+main.hgmarasaimain section article button:active {
+	color: var(--dx-wit);
+	background-color: var(--dx-rood-dark);
+	border-color: var(--dx-rood-dark);
+	transition: 0.2s;
+}
+
+
+
+/* Button tweede pagina Toevoegen aan verlang lijst */
+
+main.hgmarasaimain section:nth-last-of-type(2) article button:first-of-type:hover, main.hgmarasaimain section:nth-last-of-type(2) article button:first-of-type:focus {
+	color: var(--dx-wit);
+	background: var(--dx-rood);
+	padding: 0.5em 1em 0.5em 1em;
+	border-radius: 2em;
+}
+
+main.hgmarasaimain section:nth-last-of-type(2) article button:first-of-type:active {
+	color: var(--dx-wit);
+	background: var(--dx-rood-dark);
+	padding: 0.5em 1em 0.5em 1em;
+	border-radius: 2em;
+	transition: 0.2s;
+}
+
+
+
+/* Button tweede pagina in winkelmand knop */
+
+main.hgmarasaimain section:nth-last-of-type(2) article button:last-of-type:hover, main.hgmarasaimain section:nth-last-of-type(2) article button:last-of-type:focus {
+	background-color: var(--dx-rood);
+	transition: 0.3s;
+}
+
+main.hgmarasaimain section:nth-last-of-type(2) article button:last-of-type:focus {
+	background-color: var(--dx-rood-dark);
+	transition: 0.2s;
+}
+
+
+
+/* Links */
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 8px;
+	transition: 0.3s;
+	color: var(--dx-rood);
+}
+
+
+
+/* Algemene links fix */
+
+header section:last-of-type article nav ul li a:last-of-type:hover, header section:last-of-type article nav ul li a:last-of-type:focus {
+	color: var(--dx-rood);
+	text-decoration-thickness: 3px;
+	text-underline-offset: 8px;
+	transition: 0.3s;
+}
+
+header section:last-of-type article nav ul li a:last-of-type:active, main>div>a:active, footer>section:first-of-type article nav ul li a:active, main.hgmarasaimain section:nth-of-type(2) article div p:nth-of-type(4)>a:active, main.hgmarasaimain section:nth-of-type(2) article a:active, main.hgmarasaimain section article:first-of-type nav ul li a:active {
+	color: var(--dx-rood-dark);
+	transition: 0.2s;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 8px;
+}
+
+header section:last-of-type article nav ul li a:last-of-type:focus, main>div>a:focus, footer>section:first-of-type article nav ul li a:focus, main.hgmarasaimain section:nth-of-type(2) article div p:nth-of-type(4)>a:focus, main.hgmarasaimain section:nth-of-type(2) article a:focus, main.hgmarasaimain section article:first-of-type nav ul li a:focus {
+	color: var(--dx-rood-dark);
+	transition: 0.2s;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 8px;
+}
+
+
+
+
+
+/****************/
+/* Animatie */
+/****************/
+
+@keyframes icon-grow-ani {
+	0% {
+		transform:scale(1);
+	}
+	100% {
+		transform:scale(1.2);
+	}
+}
+
+header section:nth-of-type(2) article img:hover, header>section:first-of-type img:hover, footer>section:first-of-type article nav ul li a img:hover, header section:last-of-type img:hover {
+	animation-name: icon-grow-ani;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+
+
+
+
 
 /****************/
 /* MEDIA QUERYS */
@@ -604,6 +775,32 @@ footer>section:nth-of-type(2) article img {
 
 	main.hgmarasaimain section:nth-of-type(2) article div ul li img {
 		width: 5em;
+	}
+}
+
+@media (max-width: 630px) {
+	footer>section:first-of-type {
+		grid-template-columns: repeat(1, 1fr);	
+	}
+
+	main div section, main.hgmarasaimain section:last-of-type {
+		grid-template-columns: repeat(2, 2fr);
+	}
+
+	header section:last-of-type article nav ul {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main, header, footer section:first-of-type {
+		margin: 0em 4em 0em 4em;
+	}
+
+	footer>section:first-of-type>article {
+		margin-bottom: 1em;
+	}
+
+	main.hgmarasaimain section:nth-of-type(2) article div ul li img {
+		width: 3em;
 	}
 }
 
