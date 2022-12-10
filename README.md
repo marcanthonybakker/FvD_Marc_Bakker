@@ -354,7 +354,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Ook kan ik beter met :root de kleuren noemen naar hoofd kleur, accent kleur etc i.p.v. rood, grijs etc. Dit kan prefers high contrast, dark mode veel makkelijker maken.
 
-  <img src="rootslechtenaam.png" width="375px" alt="slechte kleurnaam">
+  <img src="readme-images/rootslechtenaam.png" width="375px" alt="slechte kleurnaam">
 </details>
 
 
